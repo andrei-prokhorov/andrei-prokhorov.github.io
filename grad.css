@@ -47,7 +47,7 @@ body {
 }
 
 #bannertext {
-    margin:55px 15px 15px 115px;
+    margin:15px 15px 15px 15px;
 	float:left; 
     text-align:left;
     font-size: 100%;
@@ -55,6 +55,14 @@ body {
     border:solid 0px red;
 }
 
+#bannertext1 {
+    margin:55px 15px 15px 15px;
+	float:left; 
+    text-align:left;
+    font-size: 100%;
+    color:#ffffff; 
+    border:solid 0px red;
+}
 #left_container {
 	width:583px;
 	padding:10px 5px 10px 20px;
