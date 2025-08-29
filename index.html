@@ -1,102 +1,68 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-	<title>Andrei Prokhorov's Personal Website</title>
-	
-	<link rel="stylesheet" href="grad.css" type="text/css" media="all" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrei Prokhorov</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-<!--div id="wrapper" -->
-<br />
-<div id="masthead">
-	
-	<div id="bannerphoto">
-		<img src="MPHOTO-LSA_MathHds_21Aug23_288.jpg" width="200" height="300">
-	</div>
-
-		<div id="bannertext">
-		<a href="." style="font-size:200%;color:#ffffff">Andrei Prokhorov</a><br />
-		<h3>Position:</h3>
-		Visiting Assistant Professor 
-		<h3>Email:</h3> prokhoai(at)ucmail(dot)uc(dot)edu
-	</div>
-	<div id="bannertext1">
-		<h3>Address:</h3> 
-Department of Mathematical Sciences<br />
-6408 French Hall West <br/>
-University of Cincinnati <br/>
-2815 Commons Way <br/>
-Cincinnati, OH 45221-0025 <br/>
-		+1 513-556-6000<br />
-	</div>
-
-</div>  <!--masthead-->
-
-<div id="left_container">
-	<h2>Research interests</h2>
-	<ul style="list-style-type:disc">
-		<li>
-		Asymptotic analysis	</li>
-		<li>
-			Riemann-Hilbert problems	</li>
-			<li>
-				Painlevé equations	</li>
-				<li>
-					Random matrices	</li>
-					<li>
-						Integrable probability</li>
-		</ul>
-		<h2>Other websites</h2>
-		<ul style="list-style-type:disc">
-			<li>
-			<a href="https://arxiv.org/a/prokhorov_a_2.html"> arXiv</a>
-     	</li>
-			<li>
-				<a href="https://www.researchgate.net/profile/Andrei-Prokhorov-3"> ResearchGate</a></li>
-				<li>
-					<a href="https://scholar.google.com/citations?hl=en&user=9EjdxhcAAAAJ"> Google Scholar</a>	</li>
-					</li>
-					<li>
-						<a href="https://orcid.org/0000-0001-8795-7275"> ORCID</a>	</li>
-						<li>
-						<a href="https://www.linkedin.com/in/andrei-prokhorov-a7919862/"> LinkedIn</a></li>
-			<li>
-						<a href="https://github.com/andrei-prokhorov"> GitHub</a></li>
-			
-		
-		</ul>
-			
-	
-</div> <!--left container-->
-
-<div id="right_container">
-	<a href="index.html">home</a><br />
-		  <a href="publications.html">publications</a><br />
-		  <a href="teaching.html" >teaching</a><br />
-<a href="presentations.html">presentations</a><br />
-<a href="collaborators.html">collaborators</a><br />
-<a href="future events.html" >future events</a><br />
-  <a href="CV.pdf">CV</a><br />
-<a href="other.html">other</a><br />  
-<!-- 
-<a href="other.html">other</a><br />  
-  -->
-	
-</div> <!--right container-->
-
- <div id="footer">
-	This is the webpage template by J. Graham.
-</div> <!--footer -->
-
-<!--/div--> <!--wrapper -->
-
+  <div class="container">
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="presentations.html">Presentations</a></li>
+          <li><a href="collaborators.html">Collaborators</a></li>
+          <li><a href="future events.html">Future events</a></li>
+          <li><a href="CV.pdf">CV</a></li>
+          <li><a href="other.html">Other</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <header>
+        <img src="MPHOTO-LSA_MathHds_21Aug23_288.jpg" alt="Andrei Prokhorov" class="profile-img">
+        <div>
+          <h1>Andrei Prokhorov</h1>
+          <h2>Visiting Assistant Professor</h2>
+          <p><strong>Department of Mathematical Sciences</strong><br>
+          6408 French Hall West<br>
+          University of Cincinnati<br>
+          2815 Commons Way<br>
+          Cincinnati, OH 45221-0025<br>
+          Phone: +1 513-556-6000<br>
+          Email: prokhoai(at)ucmail(dot)uc(dot)edu</p>
+        </div>
+      </header>
+      <section class="card">
+        <h2>Research Interests</h2>
+        <ul>
+          <li>Asymptotic analysis</li>
+          <li>Riemann-Hilbert problems</li>
+          <li>Painlevé equations</li>
+          <li>Random matrices</li>
+          <li>Integrable probability</li>
+        </ul>
+      </section>
+      <section class="card">
+        <h2>Links</h2>
+        <ul class="links">
+          <li><a href="https://arxiv.org/a/prokhorov_a_2.html">arXiv</a></li>
+          <li><a href="https://www.researchgate.net/profile/Andrei-Prokhorov-3">ResearchGate</a></li>
+          <li><a href="https://scholar.google.com/citations?hl=en&user=9EjdxhcAAAAJ">Google Scholar</a></li>
+          <li><a href="https://orcid.org/0000-0001-8795-7275">ORCID</a></li>
+          <li><a href="https://www.linkedin.com/in/andrei-prokhorov-a7919862/">LinkedIn</a></li>
+          <li><a href="https://github.com/andrei-prokhorov">GitHub</a></li>
+        </ul>
+      </section>
+      <footer>
+        <p>Original template by J. Graham. Modernized by Copilot.</p>
+      </footer>
+    </main>
+  </div>
 </body>
-
 </html>
